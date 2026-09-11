@@ -24,7 +24,7 @@ function BrandHeader() {
       <div className="site-header-top">
         <div className="site-header-left">
           <div className="site-header-logo-crop">
-            <img src="/logo-uc.jpeg" alt="Universidad Cuauhtémoc" />
+            <img src={`${import.meta.env.BASE_URL}logo-uc.jpeg`} alt="Universidad Cuauhtémoc" />
           </div>
           <span className="site-header-divider" />
           <div className="site-header-titles">
